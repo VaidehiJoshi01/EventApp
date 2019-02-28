@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "148078119",
+    "firebase_url": "https://event-app-881ae.firebaseio.com",
+    "project_id": "event-app-881ae",
+    "storage_bucket": "event-app-881ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148078119:android:f40a9177b5950f52",
+        "android_client_info": {
+          "package_name": "com.bro.kart.eventapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148078119-f4scndq78uolfmm3ldgieqgs1mc93odi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bro.kart.eventapp",
+            "certificate_hash": "8b6a5fe21efffe17689d19d82d7cfbd00330afda"
+          }
+        },
+        {
+          "client_id": "148078119-hdhftojtes101qarlhr62i743mj5c4tq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD28pTPjHgq-fRTpcKD9q9XnuBuBz_oqFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148078119-hdhftojtes101qarlhr62i743mj5c4tq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

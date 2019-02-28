@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/reldata"
+        >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Participents"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtparticipents"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtparticipents"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter Email id"
+        android:id="@+id/edtemail"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtdate"
+        android:layout_below="@+id/edtemail"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtdate"
+        android:layout_below="@+id/edtemail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter Date"
+        android:id="@+id/edtdate"
+        />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncreateevent"
+        android:layout_below="@+id/reldata"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="Create Event"
+
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
